@@ -1,20 +1,20 @@
 package OOPS.Inheritance;
 
-class Employee{
+class EmployeeNew{
     public double bonus = 5000;
 }
 
-class QualityAnalyst extends Employee{
+class QualityAnalystNew extends EmployeeNew{
     public double qaSalary;
 }
 
-class Developer extends Employee{
+class Developer extends EmployeeNew{
     public double devSalary;
 }
 
 public class Lesson3 {
     public static void main(String[] args) {
-        QualityAnalyst qapay= new QualityAnalyst();
+        QualityAnalystNew qapay= new QualityAnalystNew();
         Developer devpay = new Developer();
         qapay.qaSalary=12000;
         devpay.devSalary=17000;
