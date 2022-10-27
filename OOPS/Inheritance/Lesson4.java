@@ -1,4 +1,5 @@
 package OOPS.Inheritance;
+
 //constructors in inheritace
 class Parent {
     public Parent() {
@@ -6,13 +7,13 @@ class Parent {
     }
 }
 
-class Child extends Parent{
+class Child extends Parent {
     public Child() {
         System.out.println("Child constructor");
     }
 }
 
-class GrandChild extends Child{
+class GrandChild extends Child {
     public GrandChild() {
         System.out.println("Grand Child constructor");
     }
