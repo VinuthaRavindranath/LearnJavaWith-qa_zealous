@@ -1,5 +1,6 @@
 package LangPackage;
 
+//enum
 enum Dept {
     CS, EC, EE, IT, ME
 }
