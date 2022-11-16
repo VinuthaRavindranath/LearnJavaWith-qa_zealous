@@ -20,6 +20,10 @@ public class Lesson2 {
 
         Double j = Double.valueOf("213.44");
 
+        String s = "98";
+        int pp = Integer.parseInt(s) + 1;
+        System.out.println(pp);
+
         int k = 27;
         Integer l = k; // autoboxing
         Integer z = Integer.valueOf(k);
