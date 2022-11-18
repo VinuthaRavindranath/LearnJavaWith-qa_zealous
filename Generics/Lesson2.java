@@ -1,7 +1,7 @@
 package Generics;
 
 public class Lesson2<T> {
-
+    @SuppressWarnings("unchecked")
     T data[] = (T[]) new Object[3];
 
     public static void main(String[] args) {
